@@ -1,0 +1,136 @@
+/* Entire Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Headings */
+h2 {
+  color: #333;
+}
+
+/* Form-related Margins */
+form {
+  margin-bottom: 20px;
+}
+
+/* Input Fields, Dropdowns, and Buttons Styling */
+input,
+select,
+button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Table Layout */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table, Table Header, and Cells */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Error Message */
+p {
+  font-weight: bold;
+  color: #d9534f;
+}
+
+/* Additional Padding for Dropdown Menus */
+select {
+  padding: 8px;
+}
+
+
+/* Header Section */
+.header {
+  background-image: url('/public/images/Banner.JPG'); 
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: auto;
+  z-index: 10;
+}
+
+/* Background Image */
+.background {
+  background-image: url('/public/images/Page BG.JPG');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: -950px;
+  z-index: -1;
+}
+
+/* Content Section */
+.container {
+  position: relative;
+  z-index: 1;
+  padding: 100px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .header {
+    height: 100px; 
+  }
+
+  .logo {
+    width: 120px; 
+  }
+
+  .container {
+    padding: 50px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 80px; 
+  }
+
+  .logo {
+    width: 100px; 
+  }
+
+  .container {
+    padding: 20px; 
+  }
+}
+
+

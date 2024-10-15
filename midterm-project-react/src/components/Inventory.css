@@ -1,0 +1,84 @@
+/* Content styles for AddItem, UpdateItem, RemoveItem, and SearchItem */
+
+/* Containers */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: 200px;
+}
+
+.form-container {
+    width: 400px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+/* Button */
+.form-container button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #09baae;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 10px 0 10px;
+}
+
+.form-container button:hover {
+    background-color: #025a54; 
+    color: rgb(255, 255, 255);
+}
+
+
+/* Input and Select */
+input,
+select {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* Messages */
+.error-message {
+    color: #d9534f; 
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.success-message {
+    color: #5cb85c; 
+    background-color: #dff0d8;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+
+

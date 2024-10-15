@@ -1,0 +1,92 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  margin-top: 0;
+  transition: padding 0.3s ease; 
+}
+
+/* Hamburger Menu for Small Screens */
+.hamburger {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: none; 
+}
+
+/* Navigation Links for Large Screens */
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 2500px;
+}
+
+/* Link Styles */
+.nav-link {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #2323d8;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link:hover {
+  background-color: #19199e;
+  transition: 0.3s;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem; 
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-link {
+    margin: 5px 0;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.3rem; 
+  }
+
+  .nav-link {
+    font-size: 14px;  
+    padding: 10px 15px;  
+    margin: 3px 0; 
+  }
+}
+
+
+
