@@ -1,0 +1,57 @@
+/* Start-Up Screen BG */
+.startup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+  background-image: url('/public/images/Start BG.JPG'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+/* 'WELCOME TO' Heading */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff; 
+}
+
+
+/* Image */
+.logo-image {
+  width: 300px;  
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+
+/* Paragraph */
+.description {
+  color: #ffffff; 
+  font-size: 1.25rem; 
+  margin-top: 10px;
+}
+
+
+/* Button */
+.button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: #09baae;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #025a54;
+  color: rgb(255, 255, 255);
+}
+
+

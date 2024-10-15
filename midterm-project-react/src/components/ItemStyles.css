@@ -1,0 +1,21 @@
+/* Dropdown Menu styles for both DisplayByCategory and SortItems */
+
+.dropdown-container {
+  display: flex; 
+  justify-content: center; 
+  margin: 20px 0; 
+}
+  
+.dropdown {
+  width: 200px; 
+  padding: 8px; 
+  border-radius: 4px; 
+  border: 1px solid #ccc; 
+  font-size: 16px; 
+}
+  
+h2 {
+  text-align: center; 
+}
+
+  
